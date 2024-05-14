@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <title>Netflix india -watch tv show online</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-y: hidden;
+        }
+        
+        .root {
+            background-size: cover;
+            background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(img.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        .navbar {
+            padding-top: 1%;
+            padding-left: 2vw;
+            padding-right: 4vw;
+            height: 10vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .img-logo {
+            width: 14%;
+            color: #e50914;
+        }
+        
+        .btn-sign-in {
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: #e50914;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            width: fit-content;
+        }
+        
+        .main-container {
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .main-titile-container {
+            width: 50%;
+            text-align: center;
+            color: white;
+        }
+        
+        .main-title {
+            font-size: 3.2rem;
+            margin-bottom: 14px;
+            line-height: 1.1;
+        }
+        
+        .main-subtible {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+        
+        .main-call-to-action {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2em;
+        }
+        
+        .main-email-container {
+            width: 55%;
+            height: fit-content;
+            display: flex;
+            background-color: #fff;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: 1em;
+        }
+        
+        .main-email-container-input {
+            outline: none;
+            border: none;
+            padding: 20px 10px;
+            font-size: 1em;
+        }
+        
+        .btn-get-started {
+            cursor: pointer;
+            padding: 18px 32px;
+            font-family: Arial, Helvetica, sans-serif;
+            height: fit-content;
+            background-color: #e50914;
+            color: #fff;
+            font-size: 1.4em;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        
+        .btn-get-started:hover {
+            background-color: #ff0b18;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="root">
+        <nav class="navbar">
+            <img class="img-logo" src="netflix.png" alt="netflix logo">
+            <div class="btn-sign-in">sign in</div>
+        </nav>
+        <div class="main-container">
+            <div class="main-titile-container">
+                <h1 class="main-title">Unlimited movies, tv shows and more.</h1>
+                <h2 class="main-subtible">watch anywhere, cancle anytime.</h2>
+                <p class="main-call-to-action">
+                    Ready to watch? Enter your email to create to restart your membership.
+                </p>
+            </div>
+            <div class="main-email-container">
+                <input class="main-email-container-input" type="text" placeholder="Email Address" />
+                <div class="btn-get-started"> Get started ></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
