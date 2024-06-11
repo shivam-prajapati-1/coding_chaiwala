@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -288,14 +289,14 @@ body {
     width: 600px;
     max-height: 500px;
     padding: 10px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 .container2 {
     width: 600px;
     max-height: 500px;
     padding: 10px;
-    margin-left: 100px;
+    margin-left: 10px;
 }
 
 .heading1 {
@@ -647,7 +648,7 @@ body {
     font-weight: 13px;
     border-right: 10px;
     border-radius: 20px;
-    transition: background 0.5s, transform 0.5s;
+    transition: backgroun 0.5s, transform 0.5s;
     /*box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7;*/
     border: #0ef 5px solid;
 }
